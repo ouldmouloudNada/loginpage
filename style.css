@@ -9,11 +9,9 @@ body{
     border-radius: 10px;
     padding: 100px;
     width: 80%;
-   
 }
 .image{
     width: 50%;
-   
     display: flex;
    align-items: center;
    justify-content: center;
@@ -122,5 +120,12 @@ body{
 .question a{
     text-decoration: none;
 }
-
+@media screen and (max-width:600px) {
+    .image{
+        display: none;
+    }
+    .container{
+        width: 600px;
+    }
+}
 
